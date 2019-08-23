@@ -1,6 +1,13 @@
 body {
   margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
   font-family: 'Hepta Slab', 'Courier New', serif;
   background: #0A369D;
-  color: #CFDEE7;
+  color: #D6EDFF;
+}
+.wrapper {
+  margin: 0 10%;
+  padding: 4em;
+  background: #92B4F4;
 }
