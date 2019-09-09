@@ -1,13 +1,140 @@
+/* --- Color Palette --- */
+/* color: #274D5B; */
+/* color: #5C9EAD; */
+/* color: #E2AB91; */
+/* color: #EEEEEE; */
+
+/* --- Fonts --- */
+/* font-family: 'Hepta Slab', serif; */
+
+
+/* ========== GENERAL SECTION ========== */
 body {
-  margin: 0 auto;
-  padding-top: 10%;
-  text-align: center;
+  margin: 0;
   font-family: 'Hepta Slab', 'Courier New', serif;
-  background: #0A369D;
-  color: #D6EDFF;
 }
-.wrapper {
-  margin: 0 10%;
-  padding: 4em;
-  background: #92B4F4;
+.content-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+/* --- Headers --- */
+.general-heading {
+  color: #EEEEEE;
+  background: #274D5B;
+  margin: 0;
+}
+.page-heading {
+  background: #E2AB91;
+}
+h1 {
+  display: inline-block;
+}
+
+/* --- Navigation --- */
+nav {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  padding: 1em;
+  color: #EEEEEE;
+}
+nav li:hover {
+  background: #5C9EAD;
+  font-weight: bold;
+}
+
+/* --- Main --- */
+main {
+  clear: both;
+  background: #EEEEEE;
+  padding: 2em;
+}
+
+/* Footer */
+footer {
+  background: #274D5B;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+/* ========== END OF GENERAL SECTION ========== */
+
+/* --- Page specific --- */
+/* index.html */
+#hedgehog {
+  display: block;
+  margin: 3em auto;
+  max-width: 100%;
+  border-radius: 2%;
+}
+#nose:hover {
+  cursor: url("./img/hand.png"), pointer;
+}
+#nose:active {
+  cursor: url("./img/Boop.png"), pointer;
+}
+.version {
+  font-family: 'Courier New', serif;
+}
+
+/* about.html */
+
+.col-narrow {
+  float: left;
+  width: 35%;
+  min-width: 200px;
+  margin-right: 7%;
+  min-height: 175px;
+  /* border: 1px solid black; */
+}
+#about {
+  text-align: center;
+}
+.contacts ul {
+  padding: 0;
+}
+.contacts li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.col-wide {
+  text-align: justify;
+  float: left;
+  width: 58%;
+  min-height: 175px;
+}
+#prof_pic {
+  max-width: 500px;
+  width: 90%;
+  border-radius: 50%; /* to make it round */
+  margin: 1em auto;
+}
+#bio {
+  text-align: justify;
+}
+.social {
+  width: 40%;
+}
+#CV {
+  text-align: center;
+  padding: 3em;
+}
+#CV button {
+  background: #274D5B;
+  color: #EEEEEE;
+  padding: 1em;
+  font-family: 'Hepta Slab', 'Courier New', serif;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 0.5em;
+  border: none;
+}
+#CV button:hover {
+  background: #5C9EAD;
+  cursor: pointer;
 }

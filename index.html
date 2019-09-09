@@ -5,13 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>pedro-hdt | Pedro Teixeira</title>
+  <title>pedro-hdt</title>
 </head>
+
 <body>
-  <div class="wrapper">
-    <h1>Welcome!</h1>
-    <h2>This space is under construction...</h2>
-    <p>I am planning, preparing and learning to get it functional soon. Hope to see you around then!</p>
-  </div>
+
+  <header class="general-heading">
+    <div class="content-wrapper">
+      <h1>Pedro Teixeira</h1>
+      <nav>
+        <ul id="navbar">
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"><li>About Me</li></a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <header class="page-heading">
+    <div class="content-wrapper">
+      <h2>Home</h2>
+    </div>
+  </header>
+
+  <main>
+    <div class="content-wrapper">
+      <article class="bio">
+        <p>Welcome to my new website! It's good to see you around here!</p>
+        <p>I am currently diving into web development so this website will be a space for learning and creative experimentation. The plan is that it will evolve through several versions as I learn and introduce new technologies, becoming richer and more comprehensive along the way. Expect updates soon!</p>
+        <p>Since this is the first version, and I don't have anything else to put here, so enjoy  clicking this cute hedgehog's nose...</p>
+        <img id="hedgehog" src="./img/hedgehog-800px.png" alt="A cute hedgehog" usemap="#map">
+        <map name="map">
+          <area id="nose" shape="circle" coords="250,380,40" alt="hedgehog's nose">
+        </map>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="content-wrapper">
+      <p class="version">This is v0.1 of this page, created using only HTML and CSS. MIT License &copy; 2019 Pedro Teixeira</p>
+    </div>
+  </footer>
+
 </body>
 </html>
