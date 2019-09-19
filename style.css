@@ -60,10 +60,15 @@ footer {
   text-align: center;
 }
 
+.version a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /* ========== END OF GENERAL SECTION ========== */
 
 /* --- Page specific --- */
-/* index.html */
+/* easter-egg.html */
 #hedgehog {
   display: block;
   margin: 3em auto;
@@ -80,7 +85,7 @@ footer {
   font-family: 'Courier New', serif;
 }
 
-/* about.html */
+/* index.html */
 
 .col-narrow {
   float: left;
