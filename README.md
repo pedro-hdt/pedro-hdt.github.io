@@ -1,4 +1,5 @@
 # pedro-hdt - personal website
-Welcome to the repo of my personal website. 
 
-This is `v0.1`, the very first public release.
+Hello World! Find me at [https://pedrohdt.me](https://pedrohdt.me)
+
+This is `v0.2`, the late 2020 version
