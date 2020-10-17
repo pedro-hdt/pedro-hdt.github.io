@@ -1,0 +1,36 @@
+.jumbo {
+  padding: 4rem;
+  background-color: #b7cece;
+  margin: 1rem 0;
+}
+
+.intro {
+  font-size: 18pt;
+}
+
+.text {
+  font-size: 13pt;
+  margin: 2rem 1rem 2rem 0;
+}
+
+.profPic {
+  border: 2px solid black;
+  box-shadow: 0px 0px 7px grey;
+  display: block;
+  margin: 1rem auto 2rem auto;
+  width: 80%;
+  max-width: 100%;
+}
+
+.social {
+  border: none;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 3px grey;
+  font-weight: 500;
+}
+
+.social:hover {
+  opacity: 80%;
+}

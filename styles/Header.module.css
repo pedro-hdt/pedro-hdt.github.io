@@ -1,0 +1,16 @@
+.header {
+  background-color: #e4572e;
+}
+
+.name {
+  font-size: 22pt;
+  font-weight: 400;
+}
+
+.sub {
+  font-size: 11pt;
+}
+
+.nav {
+  margin-left: auto;
+}
