@@ -1,2 +1,15 @@
 .footer {
+  background-color: #292929;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 100%;
+  margin: 0 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text {
+  display: inline;
 }

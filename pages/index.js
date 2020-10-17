@@ -1,37 +1,48 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import { Container, Col, Image, Row } from 'react-bootstrap'
+import Head from "next/head";
+import { Button, Col, Container, Image, Nav, Jumbotron, Row } from "react-bootstrap";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-
+    <>
       <Head>
-        <title>Pedro Teixeira | Home</title>
-        <link rel="icon" href="/personal-logo32.ico" />
+        <title>Pedro Teixeira</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Container>
-          <Row>
-            <h1 className={styles.title}>Welcome to my homepage!</h1>
-          </Row>
+      <main>
+        <Container fluid="md" className={styles.container}>
+          <Jumbotron className={styles.jumbo}>
+            <Row>
+              <Col md={8}>
+                <h1>Hello World!</h1>
+                <h2 className={styles.intro}>
+                  My name is Pedro, and I'm an Amateur Baker, Academic Tutor, and aspiring Software Engineer
+                </h2>
+                <div className={styles.text}>
+                  <p>
+                    As a final year Computer Science student, at the University of Edinburgh, for my honours project, I'm currently working on approaches for automatic compiler (LLVM) retargeting from an architecture specification.
+                  </p>
+                  <p>
+                    Recently, I've been interested in applied machine learning, compilers, and computer security (protocols and secure coding).
+                  </p>
+                </div>
+                
+              </Col>
 
-          <Row>
-            <Col md={4}>
-              <Image src="/profile-pic.jpeg" alt="profile picture" roundedCircle />
-            </Col>
-            <Col md={8}>
-              <p>I'm a Computer Science student going into my final year at The University of Edinburgh. Recently, I've been exploring JavaScript and React (which is where this website comes from). My favorite courses have been Ditributed Databases and Computer Security. I tend to get interested in all sorts of things, but this year I'm working on compilers and LLVM for my Honours Project. </p>
+              <Col md={4}>
+                <Image src="/profile-pic.jpeg" roundedCircle className={styles.profPic} />
 
-              <p>I believe in solid habits, teamwork, and open communication. When not coding, I'm most likely running, rock climbing, doing yoga, baking bread, or reading.</p>
-            </Col>
-          </Row>
+                <Button href="https://www.linkedin.com/in/phdteixeira/" className={styles.social} style={{backgroundColor: "#0077b5"}}>LinkedIn</Button>{' '}
+                <Button href="https://www.github.com/pedro-hdt/" className={styles.social} style={{backgroundColor: "#24292E"}}>GitHub</Button>{' '}
+              </Col>
+
+            </Row>
+            
+          </Jumbotron>
+
         </Container>
-
-
       </main>
-
-    </div >
-  )
+    </>
+  );
 }

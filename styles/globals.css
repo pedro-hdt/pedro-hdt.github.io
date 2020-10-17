@@ -2,9 +2,7 @@
 Color palette
   orange: #f25c54;
   black: #292929;
-  pale blue: #c9daea;
-  green: #88d18a;
-  teal: #5a7d7c;
+  background 'white': #fdf7ed
 */
 
 html,
@@ -13,8 +11,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #c9daea;
+  background-color: #fdf7ed;
   color: #292929;
+  height: 100%;
+  width: 100%;
 }
 
 * {
@@ -23,24 +23,9 @@ body {
 
 a {
   text-decoration: none;
+  color: #24948e;
 }
 
-.bg1 {
-  background-color: #f25c54;
-}
-
-.bg2 {
-  background-color: #292929;
-}
-
-.bg3 {
-  background-color: #c9daea;
-}
-
-.bg4 {
-  background-color: #88d18a;
-}
-
-.bg5 {
-  background-color: #5a7d7c;
+a:hover {
+  color: #24948e;
 }

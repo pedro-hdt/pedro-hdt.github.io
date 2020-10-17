@@ -1,0 +1,12 @@
+.flexWrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 0;
+  height: 100%;
+  flex-grow: 3;
+}
