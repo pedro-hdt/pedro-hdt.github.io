@@ -41,8 +41,6 @@ jobs:
         with:
           # Build directory to deploy
           build_dir: docs
-          # Commit message
-          commit_message: ${{ GITHUB_EVENT_NAME }} # optional
           # Write the given domain name to the CNAME file
           fqdn: pedrohdt.me # optional
         env:
