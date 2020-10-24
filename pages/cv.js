@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React, { useEffect } from 'react';
+import Button from 'react-bootstrap';
 
 export default function CV() {
 
