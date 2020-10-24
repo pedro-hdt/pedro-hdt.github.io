@@ -8,7 +8,7 @@ export default function CV() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <embed src="pedrohdt-cv.pdf" type="application/pdf" width="100%" height="100%" />
+      <object data="pedrohdt-cv.pdf" type="application/pdf" width="100%" height="100%" />
         
     </>
   );
