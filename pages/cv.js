@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useEffect } from 'react';
-import Button from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 export default function CV() {
 
@@ -9,7 +9,7 @@ export default function CV() {
   useEffect(() => {
     // detect mobile device and display CV as button rather than embeddned
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      cvElem = <Button href="pedrohdt-cv.pdf" style={{backgroundColor: "#e4572e"}}>LinkedIn</Button>;
+      cvElem = <Button href="pedrohdt-cv.pdf" style={{ backgroundColor: "#e4572e" }}>LinkedIn</Button>;
     }
   });
 
@@ -20,8 +20,8 @@ export default function CV() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {cvElem}      
-        
+      {cvElem}
+
     </>
   );
 }
