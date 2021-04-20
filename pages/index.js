@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Button, Col, Container, Image, Nav, Jumbotron, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Jumbotron, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -27,18 +27,18 @@ export default function Home() {
                     Recently, I've been interested in applied machine learning, compilers, and computer security (protocols and secure coding).
                   </p>
                 </div>
-                
+
               </Col>
 
               <Col md={4}>
                 <Image src="/profile-pic.jpeg" roundedCircle className={styles.profPic} />
 
-                <Button href="https://www.linkedin.com/in/phdteixeira/" className={styles.social} style={{backgroundColor: "#0077b5"}}>LinkedIn</Button>{' '}
-                <Button href="https://www.github.com/pedro-hdt/" className={styles.social} style={{backgroundColor: "#24292E"}}>GitHub</Button>{' '}
+                <Button href="https://www.linkedin.com/in/phdteixeira/" className={styles.social} style={{ backgroundColor: "#0077b5" }}>LinkedIn</Button>{' '}
+                <Button href="https://www.github.com/pedro-hdt/" className={styles.social} style={{ backgroundColor: "#24292E" }}>GitHub</Button>{' '}
               </Col>
 
             </Row>
-            
+
           </Jumbotron>
 
         </Container>
