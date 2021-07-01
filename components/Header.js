@@ -15,8 +15,9 @@ export default function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={styles.nav} defaultActiveKey="/">
-              <Link href="/"><Nav.Link href="/" eventKey="link-1">Home</Nav.Link></Link>
-              <Link href="/cv"><Nav.Link href="/cv" eventKey="link-2">CV</Nav.Link></Link>
+              <Link href="/"><Nav.Link href="/" eventKey="home">Home</Nav.Link></Link>
+              <Link href="/cv"><Nav.Link href="/cv" eventKey="cd">CV</Nav.Link></Link>
+              <Link href="/blog"><Nav.Link href="/blog" eventKey="blog">Blog</Nav.Link></Link>
             </Nav>
           </Navbar.Collapse>
 
